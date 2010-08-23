@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* AquariumAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 717}}";
+			sepNavSelRange = "{195, 0}";
+			sepNavVisRange = "{0, 426}";
+		};
+	};
+	1D3623250D0F684500981E51 /* AquariumAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1404}}";
+			sepNavSelRange = "{919, 0}";
+			sepNavVisRange = "{243, 1748}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Aquarium */ = {
+		activeExec = 0;
+		executables = (
+			28A5DC2E12221FE800ED08DF /* Aquarium */,
+		);
+	};
+	28A5DC2E12221FE800ED08DF /* Aquarium */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Aquarium;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+	};
+	28A5DC3C12221FF800ED08DF /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+			};
+		};
+	};
+	28A5DC3D12221FF800ED08DF /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	28A5DC73122222AB00ED08DF /* AquariumViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 717}}";
+			sepNavSelRange = "{334, 0}";
+			sepNavVisRange = "{0, 439}";
+		};
+	};
+	28A5DC74122222AB00ED08DF /* AquariumViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1352}}";
+			sepNavSelRange = "{1166, 0}";
+			sepNavVisRange = "{0, 1491}";
+		};
+	};
+	28A5DD7E1222332300ED08DF /* ball.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{61, 50}, {1117, 931}}";
+		};
+	};
+	28A5DDD81222352F00ED08DF /* Aquarium.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 717}}";
+			sepNavSelRange = "{260, 0}";
+			sepNavVisRange = "{0, 266}";
+		};
+	};
+	28A5DDD91222352F00ED08DF /* Aquarium.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 692}}";
+			sepNavSelRange = "{56, 0}";
+			sepNavVisRange = "{0, 680}";
+		};
+	};
+	28A5DE091222363A00ED08DF /* ImageObject.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {439, 598}}";
+			sepNavSelRange = "{704, 0}";
+			sepNavVisRange = "{445, 368}";
+		};
+	};
+	28A5DE0A1222363A00ED08DF /* ImageObject.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1196}}";
+			sepNavSelRange = "{436, 0}";
+			sepNavVisRange = "{853, 822}";
+			sepNavWindowFrame = "{{107, 8}, {1117, 931}}";
+		};
+	};
+	28D1543B12227F200091643E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28F585D012226C2A00D3B805 /* Fish.m */;
+		name = "Fish.m: 32";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	28D1543C12227F200091643E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28F585D012226C2A00D3B805 /* Fish.m */;
+		name = "Fish.m: 32";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	28F585421222605700D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* AquariumAppDelegate.h */;
+		name = "AquariumAppDelegate.h: 10";
+		rLen = 0;
+		rLoc = 195;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	28F5858A1222632900D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AquariumAppDelegate.m */;
+		name = "AquariumAppDelegate.m: 41";
+		rLen = 0;
+		rLoc = 919;
+		rType = 0;
+		vrLen = 1748;
+		vrLoc = 243;
+	};
+	28F5858D1222632900D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A5DDD81222352F00ED08DF /* Aquarium.h */;
+		name = "Aquarium.h: 16";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 266;
+		vrLoc = 0;
+	};
+	28F585BF1222682100D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A5DC73122222AB00ED08DF /* AquariumViewController.h */;
+		name = "AquariumViewController.h: 17";
+		rLen = 0;
+		rLoc = 334;
+		rType = 0;
+		vrLen = 439;
+		vrLoc = 0;
+	};
+	28F585CF12226C2A00D3B805 /* Fish.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 692}}";
+			sepNavSelRange = "{329, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	28F585D012226C2A00D3B805 /* Fish.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 713}}";
+			sepNavSelRange = "{639, 0}";
+			sepNavVisRange = "{0, 896}";
+		};
+	};
+	28F5860B1222704600D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A5DC74122222AB00ED08DF /* AquariumViewController.m */;
+		name = "AquariumViewController.m: 41";
+		rLen = 0;
+		rLoc = 1166;
+		rType = 0;
+		vrLen = 1491;
+		vrLoc = 0;
+	};
+	28F586131222707C00D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28F585CF12226C2A00D3B805 /* Fish.h */;
+		name = "Fish.h: 20";
+		rLen = 0;
+		rLoc = 329;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 0;
+	};
+	28F586141222707C00D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A5DDD91222352F00ED08DF /* Aquarium.m */;
+		name = "Aquarium.m: 5";
+		rLen = 0;
+		rLoc = 56;
+		rType = 0;
+		vrLen = 680;
+		vrLoc = 0;
+	};
+	28F5861B122270AD00D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A5DE091222363A00ED08DF /* ImageObject.h */;
+		name = "ImageObject.h: 20";
+		rLen = 15;
+		rLoc = 318;
+		rType = 0;
+		vrLen = 818;
+		vrLoc = 0;
+	};
+	28F5861C122270AD00D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28A5DE0A1222363A00ED08DF /* ImageObject.m */;
+		name = "ImageObject.m: 22";
+		rLen = 0;
+		rLoc = 436;
+		rType = 0;
+		vrLen = 822;
+		vrLoc = 853;
+	};
+	28F586A412227DFB00D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28F585D012226C2A00D3B805 /* Fish.m */;
+		name = "Fish.m: 32";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	28F586A912227EBF00D3B805 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28F585D012226C2A00D3B805 /* Fish.m */;
+		name = "Fish.m: 32";
+		rLen = 0;
+		rLoc = 639;
+		rType = 0;
+		vrLen = 896;
+		vrLoc = 0;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 28A5DC2E12221FE800ED08DF /* Aquarium */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Aquarium */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Aquarium */,
+		);
+		codeSenseManager = 28A5DC3D12221FF800ED08DF /* Code sense */;
+		executables = (
+			28A5DC2E12221FE800ED08DF /* Aquarium */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1233,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304250643;
+			PBXWorkspaceStateSaveDate = 304250643;
+		};
+		perUserProjectItems = {
+			28D1543B12227F200091643E /* PBXTextBookmark */ = 28D1543B12227F200091643E /* PBXTextBookmark */;
+			28D1543C12227F200091643E /* PBXTextBookmark */ = 28D1543C12227F200091643E /* PBXTextBookmark */;
+			28F585421222605700D3B805 = 28F585421222605700D3B805 /* PBXTextBookmark */;
+			28F5858A1222632900D3B805 = 28F5858A1222632900D3B805 /* PBXTextBookmark */;
+			28F5858D1222632900D3B805 = 28F5858D1222632900D3B805 /* PBXTextBookmark */;
+			28F585BF1222682100D3B805 = 28F585BF1222682100D3B805 /* PBXTextBookmark */;
+			28F5860B1222704600D3B805 = 28F5860B1222704600D3B805 /* PBXTextBookmark */;
+			28F586131222707C00D3B805 = 28F586131222707C00D3B805 /* PBXTextBookmark */;
+			28F586141222707C00D3B805 = 28F586141222707C00D3B805 /* PBXTextBookmark */;
+			28F5861B122270AD00D3B805 = 28F5861B122270AD00D3B805 /* PBXTextBookmark */;
+			28F5861C122270AD00D3B805 = 28F5861C122270AD00D3B805 /* PBXTextBookmark */;
+			28F586A412227DFB00D3B805 = 28F586A412227DFB00D3B805 /* PBXTextBookmark */;
+			28F586A912227EBF00D3B805 = 28F586A912227EBF00D3B805 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 28A5DC3C12221FF800ED08DF /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

@@ -1,0 +1,540 @@
+TAquarium
+v7
+r3
+t304239175.823826
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Aquarium.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Info.plist" Aquarium-Info.plist
+cCompileXIB "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib"
+cCopyPNGFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ball.png" ball.png
+cProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/main.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumAppDelegate.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumViewController.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/ImageObject.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/main.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumAppDelegate.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumViewController.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium" normal armv6
+cCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/ImageObject.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium" normal armv7
+cCreateUniversalBinary "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium" normal "armv6 armv7"
+cGenerateDSYMFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app.dSYM" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium"
+cProcessProductPackaging "/Users/monko5/Library/MobileDevice/Provisioning Profiles/DF005732-D11E-4273-B71D-7641DDA215B9.mobileprovision" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision"
+cTouch "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent"
+cCodeSign "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
+c000000004C4A53360000000000000110
+t1279939382
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+c000000004C2A7DA700000000000001A7
+t1277853095
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+c000000004C2A7DA700000000000001E5
+t1277853095
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFE06FA000000000034A850
+t1274939130
+s3450960
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFE07D200000000003E1EB0
+t1274939346
+s4071088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFE07B10000000000001466
+t1274939313
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C0458CC00000000000000C4
+t1275353292
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C045AEF0000000000253180
+t1275353839
+s2437504
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C296E2A00000000000009CD
+t1277783594
+s2509
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C296F120000000002D563E0
+t1277783826
+s47539168
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch
+c000000004C71E86800000000000000B9
+t1282533480
+s185
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.h
+c000000004C721847000000000000012F
+t1282545735
+s303
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m
+c000000004C721AC500000000000004D0
+t1282546373
+s1232
+i"Aquarium.h"
+i"ImageObject.h"
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.h
+c000000004C71F31900000000000001AA
+t1282536217
+s426
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m
+c000000004C72033D0000000000000BD0
+t1282540349
+s3024
+i"AquariumAppDelegate.h"
+i"AquariumViewController.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.h
+c000000004C71FE1B000000000000014D
+t1282539035
+s333
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m
+c000000004C72178E000000000000083F
+t1282545550
+s2111
+i"AquariumViewController.h"
+i"Aquarium.h"
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.h
+c000000004C7215F200000000000002C8
+t1282545138
+s712
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m
+c000000004C721AC200000000000004A9
+t1282546370
+s1193
+i"ImageObject.h"
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib
+c000000004C71E868000000000000210D
+t1282533480
+s8461
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/ball.png
+c000000004A5FBD44000000000000028A
+t1247788356
+s650
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent
+t1282533605
+s422
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium
+t1282546374
+s32428
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.LinkFileList
+c000000004C7218FF00000000000002CA
+t1282545919
+s714
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.o
+t1282546374
+s38860
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumAppDelegate.o
+t1282545920
+s49400
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumViewController.o
+t1282545920
+s42364
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/ImageObject.o
+t1282546374
+s45640
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/main.o
+t1282533605
+s6472
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium
+t1282546374
+s27848
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.LinkFileList
+c000000004C7218FF00000000000002CA
+t1282545919
+s714
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.o
+t1282546374
+s38740
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumAppDelegate.o
+t1282545921
+s49324
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumViewController.o
+t1282545921
+s42076
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/ImageObject.o
+t1282546374
+s44648
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/main.o
+t1282533605
+s6456
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app
+t1282546374
+s408
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app.dSYM
+t1282546374
+s102
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium
+t1282546374
+s64712
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Info.plist
+t1282533603
+s730
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/MainWindow.nib
+t1282533603
+s985
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/PkgInfo
+t1282533603
+s8
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ResourceRules.plist
+t1282533603
+s485
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ball.png
+t1282545919
+s693
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision
+t1282533605
+s7178
+
+N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m
+c000000004C71E8680000000000000163
+t1282533480
+s355
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Library/MobileDevice/Provisioning Profiles/DF005732-D11E-4273-B71D-7641DDA215B9.mobileprovision
+c000000004C4A43F80000000000001C0A
+t1279935480
+s7178
+
+N/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch.gch
+t1282533604
+s10290736
+
+N/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch.gch
+t1282533604
+s9831984
+
+NAquarium-Info.plist
+c000000004C71E868000000000000038D
+t1282533480
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies304239173#304239173#0(0"0(0#1#0"8620324992#0"0#
+
+CCodeSign "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"
+s304239174.680217
+e304239175.823804
+r0
+xCodeSign
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app
+lSLF07#2@42"CodeSign build/Debug-iphoneos/Aquarium.app304239174#304239175#0(0"0(0#0#88"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app8593815136#725"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Brian Turner (X8G42FSQ6G)" "--resource-rules=/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ResourceRules.plist" --entitlements "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"2#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304239173.858398
+e304239174.185624
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m304239173#304239174#0(0"0(0#0#73"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m8612070976#1958"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv6" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumAppDelegate.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304238719.221811
+e304238720.398602
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumAppDelegate.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m304238719#304238720#0(0"0(0#0#84"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m8615059200#1980"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv6" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumAppDelegate.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumViewController.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304238719.223270
+e304238720.164773
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumViewController.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m304238719#304238720#0(0"0(0#0#87"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m8612630048#1986"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv6" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/AquariumViewController.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/ImageObject.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304239173.937889
+e304239174.277550
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/ImageObject.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m304239173#304239174#0(0"0(0#0#76"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m8620826144#1964"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv6" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/ImageObject.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/main.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304226404.960826
+e304226405.053364
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/main.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m304226404#304226405#0(0"0(0#0#61"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m8615417248#1942"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv6" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/main.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304239174.186011
+e304239174.326907
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m304239174#304239174#0(0"0(0#0#73"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m8619666784#1958"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv7" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumAppDelegate.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304238720.398819
+e304238721.803233
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumAppDelegate.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m304238720#304238721#0(0"0(0#0#84"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m8619473824#1980"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv7" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumAppDelegate.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumViewController.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304238721.593495
+e304238721.761835
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumViewController.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m304238721#304238721#0(0"0(0#0#87"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m8619540192#1986"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv7" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumViewController.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/AquariumViewController.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/ImageObject.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304239174.325250
+e304239174.490333
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/ImageObject.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m304239174#304239174#0(0"0(0#0#76"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m8615905408#1964"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv7" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/ImageObject.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/ImageObject.o"0#
+
+CCompileC build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/main.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304226405.107475
+e304226405.206666
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/main.o
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m304226405#304226405#0(0"0(0#0#61"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m8612684736#1942"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv7" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/main.o"0#
+
+CCompileXIB "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib"
+s304226403.119338
+e304226403.542170
+r1
+xCompileXIB
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib304226403#304226403#0(0"0(0#0#69"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib8615208576#597"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/MainWindow.nib" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib" --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
+
+CCopyPNGFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ball.png" ball.png
+s304238719.020809
+e304238719.221359
+r1
+xCopyPNGFile
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ball.png
+xball.png
+lSLF07#2@63"CopyPNGFile build/Debug-iphoneos/Aquarium.app/ball.png ball.png304238719#304238719#0(0"0(0#0#63"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/ball.png8616682368#611"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/ball.png" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ball.png"0#
+
+CCpResource build/Debug-iphoneos/Aquarium.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+s304226402.980211
+e304226403.119241
+r1
+xCpResource
+xbuild/Debug-iphoneos/Aquarium.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist304226402#304226403#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist3419159298929816064#517"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"0#
+
+CCreateUniversalBinary "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium" normal "armv6 armv7"
+s304239174.538449
+e304239174.543149
+r1
+xCreateUniversalBinary
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium
+xnormal
+xarmv6 armv7
+lSLF07#2@85"CreateUniversalBinary build/Debug-iphoneos/Aquarium.app/Aquarium normal "armv6 armv7"304239174#304239174#0(0"0(0#0#66"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/armv6 armv78617690848#598"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium" -output "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium"0#
+
+CGenerateDSYMFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app.dSYM" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium"
+s304239174.543244
+e304239174.675259
+r1
+xGenerateDSYMFile
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app.dSYM
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium
+lSLF07#2@98"GenerateDSYMFile build/Debug-iphoneos/Aquarium.app.dSYM build/Debug-iphoneos/Aquarium.app/Aquarium304239174#304239174#0(0"0(0#0#97"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium8617165056#419"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Aquarium" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app.dSYM"0#
+
+CLd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium" normal armv6
+s304239174.277641
+e304239174.324966
+r1
+xLd
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium
+xnormal
+xarmv6
+lSLF07#2@140"Link /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium304239174#304239174#0(0"0(0#0#0"8616216256#977"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" -filelist "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv6/Aquarium"0#
+
+CLd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium" normal armv7
+s304239174.490426
+e304239174.538354
+r1
+xLd
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium
+xnormal
+xarmv7
+lSLF07#2@140"Link /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium304239174#304239174#0(0"0(0#0#0"8620286432#977"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk "-L/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" -filelist "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium.LinkFileList" -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Objects-normal/armv7/Aquarium"0#
+
+CProcessInfoPlistFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Info.plist" Aquarium-Info.plist
+s304226402.986875
+e304226403.016144
+r1
+xProcessInfoPlistFile
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Info.plist
+xAquarium-Info.plist
+lSLF07#2@27"Process Aquarium-Info.plist304226402#304226403#0(0"0(0#0#74"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium-Info.plist8614751072#638"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Aquarium-Info.plist -genpkginfo "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/ResourceRules.plist" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/Info.plist"0#
+
+CProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s304226403.544616
+e304226404.960712
+r1
+xProcessPCH
+x/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch.gch
+xAquarium_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Aquarium_Prefix.pch304226403#304226404#0(0"0(0#0#74"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch8615345344#1821"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv7" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch" -o /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-ccydwxfwvbjhqaflzfjybjlkfaji/Aquarium_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s304226403.542322
+e304226404.779895
+r1
+xProcessPCH
+x/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch.gch
+xAquarium_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@30"Precompile Aquarium_Prefix.pch304226403#304226404#0(0"0(0#0#74"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch8615197120#1821"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources/armv6" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/DerivedSources" -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch" -o /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-eyedhmktuagpkqfipbndawrzieye/Aquarium_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/monko5/Library/MobileDevice/Provisioning Profiles/DF005732-D11E-4273-B71D-7641DDA215B9.mobileprovision" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision"
+s304226405.703373
+e304226405.705015
+r1
+xProcessProductPackaging
+x/Users/monko5/Library/MobileDevice/Provisioning Profiles/DF005732-D11E-4273-B71D-7641DDA215B9.mobileprovision
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision
+lSLF07#2@194"ProcessProductPackaging "/Users/monko5/Library/MobileDevice/Provisioning Profiles/DF005732-D11E-4273-B71D-7641DDA215B9.mobileprovision" build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision304226405#304226405#0(0"0(0#0#113"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision8611485216#461"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/monko5/Library/MobileDevice/Provisioning Profiles/DF005732-D11E-4273-B71D-7641DDA215B9.mobileprovision" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app/embedded.mobileprovision"0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent"
+s304226405.708836
+e304226405.743846
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent
+lSLF07#2@178"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent304226405#304226405#0(0"0(0#0#120"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent8610524576#471"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphoneos/Aquarium.build/Aquarium.xcent"0#
+
+CTouch "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"
+s304239174.675521
+e304239174.679996
+r1
+xTouch
+x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app
+lSLF07#2@94"Touch /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app304239174#304239174#0(0"0(0#0#0"8615607424#301"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphoneos/Aquarium.app"0#
+
