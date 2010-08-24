@@ -7,7 +7,7 @@
 //
 
 #import "Aquarium.h"
-#import "ImageObject.h"
+
 
 @implementation Aquarium
 
@@ -15,8 +15,8 @@
 - (id)initWithFrame:(CGRect)frame {
     if ((self = [super initWithFrame:frame])) {
         // Initialization code
-		[self setBackgroundColor:[UIColor blueColor]];
-	fishArray = [[NSMutableArray alloc] init];
+		[self setBackgroundColor:[UIColor clearColor]];
+
 
     }
     return self;

@@ -8,8 +8,8 @@
 
 #import "AquariumViewController.h"
 #import "Aquarium.h"
-#import "ImageObject.h"
-#import "Fish.h"
+#import "CustomObject.h"
+
 
 @implementation AquariumViewController
 @synthesize fishesArray;
@@ -19,12 +19,10 @@
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
 		NSLog(@"inside AquariumViewController Init");
-        // Custom initialization
-		aqView = [[Aquarium alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-		self.view = aqView;
+
 		fishesArray = [[NSMutableArray alloc] init];
-		
-		
+		segmentedController = [[UISegmentedControl alloc] init];
+
 		
     }
     return self;
@@ -32,23 +30,46 @@
 
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-	
+	NSLog(@"%i",[segmentedController selectedSegmentIndex]);
 	UITouch *touch = [touches anyObject];
 	CGPoint p = [touch locationInView:self.view];
-	//[aqView setPosition:p];
+
+
 	
-//	imageView = [[ImageObject alloc] initWithPosition:p andAquarium:self];
-		imageView = [[Fish alloc] initWithPosition:p andAquarium:self];
-	[imageView setBounceOnScreenLimit:YES];
-	[self.view addSubview:imageView];
-	[fishesArray addObject:imageView];
-	[imageView release];
+	
+	switch ([segmentedController selectedSegmentIndex]) {
+		case 0:
+			customObject = [[CustomObject alloc] initWithPosition:p andAquarium:self andImage:nil];
+			customObject.scale = 1;
+			break;
+		case 1:
+			NSLog(@"whatever");
+			UIImage *myImage = [UIImage imageNamed:@"fish.jpg"];
+			customObject = [[CustomObject alloc] initWithPosition:p andAquarium:self andImage:myImage];
+			customObject.scale = 1;
+				[myImage release];
+			break;
+		case 2:
+			customObject = [[CustomObject alloc] initWithPosition:p andAquarium:self andImage:nil];
+			customObject.bounceOnScreenLimit= NO;
+			customObject.scale = 3;
+			break;
+			
+		default:
+			break;
+	}
+	
+	
+	[self.view addSubview:customObject];
+	[fishesArray addObject:customObject];
+	[customObject release];
+
 	
 }
 
 -(void)updateAQ {
 	//NSLog(@"ViewController Update");
-	for (ImageObject *myImageObject in fishesArray) {
+	for (CustomObject *myImageObject in fishesArray) {
 		[myImageObject update];
 	}
 	
@@ -57,8 +78,8 @@
 
 -(void)renderAQ {
 	//		NSLog(@"ViewController Render");
-	[aqView drawRect:CGRectMake(0, 0, 320, 480)];
-	for (ImageObject *myImageObject in fishesArray) {
+//	[aqView drawRect:CGRectMake(0, 0, 320, 480)];
+	for (CustomObject *myImageObject in fishesArray) {
 		[myImageObject render];
 	}
 	

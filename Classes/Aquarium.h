@@ -11,7 +11,7 @@
 
 @interface Aquarium : UIView {
 	ImageObject *imageView;
-	NSMutableArray *fishArray;
+
 }
 
 @end

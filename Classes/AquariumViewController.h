@@ -8,13 +8,19 @@
 
 #import <UIKit/UIKit.h>
 @class Aquarium;
-@class ImageObject;
+@class CustomObject;
 
 @interface AquariumViewController : UIViewController {
-	Aquarium *aqView;
-	ImageObject *imageView;
+	IBOutlet Aquarium *aqView;
+
+	CustomObject *customObject;
 	
 	NSMutableArray *fishesArray;
+	
+	int fishChoice;
+	
+	IBOutlet UISegmentedControl *segmentedController;
+	
 
 }
 @property (nonatomic, retain) NSMutableArray *fishesArray;

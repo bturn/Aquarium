@@ -1,17 +1,19 @@
 TAquarium
 v7
 r0
-t304226509.293949
+t304313890.105913
 cCheck dependencies
-cProcessInfoPlistFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist" Aquarium-Info.plist
-cCompileXIB "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib"
-cProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium" normal i386
-cGenerateDSYMFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium"
-cTouch "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app"
+cProcessInfoPlistFile /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist Aquarium-Info.plist
+cCompileXIB /Users/monko5/Dropbox/CoCoa/Aquarium/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/Aquarium.app/ball.png ball.png
+cCpResource build/Debug-iphonesimulator/Aquarium.app/fish.jpg fish.jpg
+cCompileXIB /Users/monko5/Dropbox/CoCoa/Aquarium/AquariumViewController.xib
+cProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o /Users/monko5/Dropbox/CoCoa/Aquarium/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumViewController.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/CustomObject.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
 
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
 c000000004C4A53470000000000000132
@@ -33,6 +35,16 @@ c000000004BFDFE6E0000000000001466
 t1274936942
 s5222
 
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C04586B00000000000000C4
+t1275353195
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C0458E90000000000151D30
+t1275353321
+s1383728
+
 N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
 c000000004C0470BB00000000000009CD
 t1275359419
@@ -43,198 +55,318 @@ c000000004C0471620000000001D47210
 t1275359586
 s30700048
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch
+N/Users/monko5/Dropbox/CoCoa/Aquarium/AquariumViewController.xib
+c000000004C73395A000000000000553A
+t1282619738
+s21818
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Aquarium_Prefix.pch
 c000000004C71E86800000000000000B9
 t1282533480
 s185
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.h
-c000000004C71E87800000000000000C3
-t1282533496
-s195
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.h
+c000000004C72967200000000000000EF
+t1282578034
+s239
 i<UIKit/UIKit.h>
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m
-c000000004C71E949000000000000028C
-t1282533705
-s652
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m
+c000000004C72D4980000000000000267
+t1282593944
+s615
 i"Aquarium.h"
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.h
-c000000004C71E8680000000000000143
-t1282533480
-s323
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.h
+c000000004C71F31900000000000001AA
+t1282536217
+s426
 i<UIKit/UIKit.h>
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m
-c000000004C71E8CD0000000000000A16
-t1282533581
-s2582
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m
+c000000004C72E5640000000000000BD0
+t1282598244
+s3024
 i"AquariumAppDelegate.h"
-i"Aquarium.h"
+i"AquariumViewController.h"
+i<QuartzCore/QuartzCore.h>
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.h
+c000000004C73337A0000000000000210
+t1282618234
+s528
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m
+c000000004C733E840000000000000C03
+t1282621060
+s3075
+i"AquariumViewController.h"
+i"Aquarium.h"
+i"CustomObject.h"
+i<QuartzCore/QuartzCore.h>
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.h
+c000000004C732D030000000000000463
+t1282616579
+s1123
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m
+c000000004C733D960000000000000AE3
+t1282620822
+s2787
+i"CustomObject.h"
+i"AquariumAppDelegate.h"
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/MainWindow.xib
 c000000004C71E868000000000000210D
 t1282533480
 s8461
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.LinkFileList
-c000000004C71E94B00000000000001B7
-t1282533707
-s439
+N/Users/monko5/Dropbox/CoCoa/Aquarium/ball.png
+c000000004A5FBD44000000000000028A
+t1247788356
+s650
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o
-t1282533709
-s35264
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.LinkFileList
+c000000004C733E9F000000000000028F
+t1282621087
+s655
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o
-t1282533709
-s47176
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o
+t1282621089
+s35228
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o
-t1282533709
-s6336
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o
+t1282621089
+s50984
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app
-t1282533709
-s204
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumViewController.o
+t2
+s0
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM
-t1282533709
-s102
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/CustomObject.o
+t1282621090
+s46360
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium
-t1282533709
-s16712
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o
+t1282621089
+s6300
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist
-t1282533707
-s595
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app
+t2
+s0
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/MainWindow.nib
-t1282533708
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM
+t2
+s0
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium
+t2
+s0
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/AquariumViewController.nib
+t1282621089
+s1552
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist
+t1282621087
+s622
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/MainWindow.nib
+t1282621089
 s985
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/PkgInfo
-t1282533707
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/PkgInfo
+t1282621087
 s8
 
-N/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/ball.png
+t1282621087
+s650
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/fish.jpg
+t1282621087
+s5743
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/fish.jpg
+c000000004C72C611000000000000166F
+t1282590225
+s5743
+
+N/Users/monko5/Dropbox/CoCoa/Aquarium/main.m
 c000000004C71E8680000000000000163
 t1282533480
 s355
 i<UIKit/UIKit.h>
 
-N/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch.gch
-t1282533708
+N/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch.gch
+t1282585837
 s15232016
 
 NAquarium-Info.plist
-c000000004C71E868000000000000038D
-t1282533480
-s909
+c000000004C72B9BE00000000000003B4
+t1282587070
+s948
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies304226507#304226507#0(0"0(0#1#0"3343187568374212096#0"0#
+lSLF07#2@18"Check dependencies304313887#304313887#0(0"0(0#1#0"3343187568374212096#0"0#
 
-CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s304226509.126154
-e304226509.226720
+CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304313889.868350
+e304313889.989519
 r1
 xCompileC
 xbuild/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m
+x/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m304226509#304226509#0(0"0(0#0#73"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m8615188128#2135"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/Aquarium.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o"0#
+lSLF07#2@63"Compile /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m304313889#304313889#0(0"0(0#0#55"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m8604780448#1915"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap -F/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/include -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386 -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch -c /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/Aquarium.m -o /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.o0#
 
-CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s304226509.054418
-e304226509.174942
+CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304313889.671525
+e304313889.868210
 r1
 xCompileC
 xbuild/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m
+x/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m: In function '-[AquariumAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m:23: warning: unused variable 'aqView'
-lSLF07#2@92"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m304226509#304226509#0(290"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m: In function '-[AquariumAppDelegate application:didFinishLaunchingWithOptions:]':/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m:23: warning: unused variable 'aqView'1(22@24"Unused variable 'aqView'304226509#167#123#0(6@84"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m304226381#23#0#23#0#19"unused variable '*'0(0#0#84"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m8615693152#2157"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Classes/AquariumAppDelegate.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o"0#
+lSLF07#2@74"Compile /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m304313889#304313889#0(0"0(0#0#66"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m8605206112#1937"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap -F/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/include -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386 -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch -c /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumAppDelegate.m -o /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumAppDelegate.o0#
 
-CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s304226509.053291
-e304226509.126038
+CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumViewController.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304313889.822210
+e304313890.003660
+r0
+xCompileC
+xbuild/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumViewController.o
+x/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m: In function '-[AquariumViewController touchesBegan:withEvent:]':
+o/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:47: error: expected expression before 'UIImage'
+o/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:48: error: 'myImage' undeclared (first use in this function)
+o/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:48: error: (Each undeclared identifier is reported only once
+o/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:48: error: for each function it appears in.)
+o{standard input}:125:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:125:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:116:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"
+o{standard input}:116:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression
+o{standard input}:111:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AquariumViewController.segmentedController$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:111:symbol: "L_OBJC_IVAR_$_AquariumViewController.segmentedController$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:103:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:103:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:97:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:97:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:94:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"
+o{standard input}:94:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression
+o{standard input}:89:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AquariumViewController.fishesArray$non_lazy_ptr" minus "L00000000001$pb"
+o{standard input}:89:symbol: "L_OBJC_IVAR_$_AquariumViewController.fishesArray$non_lazy_ptr" can't be undefined in a subtraction expression
+o{standard input}:71:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:71:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:67:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"
+o{standard input}:67:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AquariumViewController.fishesArray$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AquariumViewController.segmentedController$non_lazy_ptr
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+lSLF07#2@77"Compile /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m304313889#304313890#0(3710"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m: In function '-[AquariumViewController touchesBegan:withEvent:]':/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:47: error: expected expression before 'UIImage'/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:48: error: 'myImage' undeclared (first use in this function)/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:48: error: (Each undeclared identifier is reported only once/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m:48: error: for each function it appears in.){standard input}:125:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:125:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:119:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:119:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:116:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_2" minus "L00000000001$pb"{standard input}:116:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_2" can't be undefined in a subtraction expression{standard input}:111:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AquariumViewController.segmentedController$non_lazy_ptr" minus "L00000000001$pb"{standard input}:111:symbol: "L_OBJC_IVAR_$_AquariumViewController.segmentedController$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:103:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:103:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:97:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:97:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:94:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_REFERENCES_$_1" minus "L00000000001$pb"{standard input}:94:symbol: "L_OBJC_CLASSLIST_REFERENCES_$_1" can't be undefined in a subtraction expression{standard input}:89:non-relocatable subtraction expression, "L_OBJC_IVAR_$_AquariumViewController.fishesArray$non_lazy_ptr" minus "L00000000001$pb"{standard input}:89:symbol: "L_OBJC_IVAR_$_AquariumViewController.fishesArray$non_lazy_ptr" can't be undefined in a subtraction expression{standard input}:71:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:71:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:67:non-relocatable subtraction expression, "L_OBJC_CLASSLIST_SUP_REFS_$_0" minus "L00000000001$pb"{standard input}:67:symbol: "L_OBJC_CLASSLIST_SUP_REFS_$_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AquariumViewController.fishesArray$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_IVAR_$_AquariumViewController.segmentedController$non_lazy_ptr{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_22(4@36"Expected expression before 'UIImage'304313889#136#118#0(6@69"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m304313860#47#0#47#0#19"expected * before *0(4@49"'myImage' undeclared (first use in this function)304313889#254#131#0(6@69"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m304313860#48#0#48#0#43"'*' undeclared (first use in this function)0(0#0#69"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m8604950944#1943"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap -F/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/include -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386 -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch -c /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/AquariumViewController.m -o /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/AquariumViewController.o1#
+
+CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/CustomObject.o /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304313889.989629
+e304313890.105820
+r1
+xCompileC
+xbuild/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/CustomObject.o
+x/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m304313889#304313890#0(0"0(0#0#59"/Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m8602277056#1923"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap -F/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/include -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386 -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch -c /Users/monko5/Dropbox/CoCoa/Aquarium/Classes/CustomObject.m -o /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/CustomObject.o0#
+
+CCompileC build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o /Users/monko5/Dropbox/CoCoa/Aquarium/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s304313889.670098
+e304313889.822104
 r1
 xCompileC
 xbuild/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m
+x/Users/monko5/Dropbox/CoCoa/Aquarium/main.m
 xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@69"Compile /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m304226509#304226509#0(0"0(0#0#61"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m8616599168#2119"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources" -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/main.m" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o"0#
+lSLF07#2@51"Compile /Users/monko5/Dropbox/CoCoa/Aquarium/main.m304313889#304313889#0(0"0(0#0#43"/Users/monko5/Dropbox/CoCoa/Aquarium/main.m8600927648#1899"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap -iquote /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap -F/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/include -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386 -I/Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources -include /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch -c /Users/monko5/Dropbox/CoCoa/Aquarium/main.m -o /Users/monko5/Dropbox/CoCoa/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/main.o0#
 
-CCompileXIB "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib"
-s304226507.681386
-e304226508.142221
+CCompileXIB /Users/monko5/Dropbox/CoCoa/Aquarium/AquariumViewController.xib
+s304313887.561037
+e304313889.669806
 r1
 xCompileXIB
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib304226507#304226508#0(0"0(0#0#69"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib8615199232#625"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/MainWindow.nib" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+x/Users/monko5/Dropbox/CoCoa/Aquarium/AquariumViewController.xib
+lSLF07#2@37"CompileXIB AquariumViewController.xib304313887#304313889#0(0"0(0#0#63"/Users/monko5/Dropbox/CoCoa/Aquarium/AquariumViewController.xib8605003200#589"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/AquariumViewController.nib /Users/monko5/Dropbox/CoCoa/Aquarium/AquariumViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
-CGenerateDSYMFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM" "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium"
-s304226509.272747
-e304226509.290039
+CCompileXIB /Users/monko5/Dropbox/CoCoa/Aquarium/MainWindow.xib
+s304313887.549386
+e304313889.645246
 r1
-xGenerateDSYMFile
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium
-lSLF07#2@112"GenerateDSYMFile build/Debug-iphonesimulator/Aquarium.app.dSYM build/Debug-iphonesimulator/Aquarium.app/Aquarium304226509#304226509#0(0"0(0#0#104"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium8611426816#440"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium" -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM"0#
+xCompileXIB
+x/Users/monko5/Dropbox/CoCoa/Aquarium/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib304313887#304313889#0(0"0(0#0#51"/Users/monko5/Dropbox/CoCoa/Aquarium/MainWindow.xib8603298752#565"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/MainWindow.nib /Users/monko5/Dropbox/CoCoa/Aquarium/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
-CLd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium" normal i386
-s304226509.226820
-e304226509.272646
+CCpResource build/Debug-iphonesimulator/Aquarium.app/ball.png ball.png
+s304313887.554374
+e304313887.668398
 r1
-xLd
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium
-xnormal
-xi386
-lSLF07#2@109"Link /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium304226509#304226509#0(0"0(0#0#0"8614140192#995"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk "-L/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator" -filelist "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Objects-normal/i386/Aquarium.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium"0#
+xCpResource
+xbuild/Debug-iphonesimulator/Aquarium.app/ball.png
+xball.png
+lSLF07#2@13"Copy ball.png304313887#304313887#0(0"0(0#0#45"/Users/monko5/Dropbox/CoCoa/Aquarium/ball.png8601566016#447"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/monko5/Dropbox/CoCoa/Aquarium/ball.png /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app0#
 
-CProcessInfoPlistFile "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist" Aquarium-Info.plist
-s304226507.670529
-e304226507.681296
+CCpResource build/Debug-iphonesimulator/Aquarium.app/fish.jpg fish.jpg
+s304313887.556501
+e304313887.672413
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Aquarium.app/fish.jpg
+xfish.jpg
+lSLF07#2@13"Copy fish.jpg304313887#304313887#0(0"0(0#0#45"/Users/monko5/Dropbox/CoCoa/Aquarium/fish.jpg8605041504#447"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/monko5/Dropbox/CoCoa/Aquarium/fish.jpg /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app0#
+
+CGenerateDSYMFile /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app.dSYM /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium
+r0
+
+CLd /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Aquarium normal i386
+r0
+
+CProcessInfoPlistFile /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist Aquarium-Info.plist
+s304313887.491248
+e304313887.549187
 r1
 xProcessInfoPlistFile
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist
+x/Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist
 xAquarium-Info.plist
-lSLF07#2@27"Process Aquarium-Info.plist304226507#304226507#0(0"0(0#0#74"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium-Info.plist8615486304#536"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Aquarium-Info.plist -genpkginfo "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist"0#
+lSLF07#2@27"Process Aquarium-Info.plist304313887#304313887#0(0"0(0#0#56"/Users/monko5/Dropbox/CoCoa/Aquarium/Aquarium-Info.plist28429445101453416#476"    cd /Users/monko5/Dropbox/CoCoa/Aquarium    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Aquarium-Info.plist -genpkginfo /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app/Info.plist0#
 
-CProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s304226508.142347
-e304226509.053181
-r1
-xProcessPCH
-x/var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch.gch
-xAquarium_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@30"Precompile Aquarium_Prefix.pch304226508#304226509#0(0"0(0#0#74"/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch8614795392#1992"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-generated-files.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-own-target-headers.hmap" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-all-target-headers.hmap" -iquote "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/Aquarium-project-headers.hmap" "-F/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/include" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources/i386" "-I/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Aquarium.build/Debug-iphonesimulator/Aquarium.build/DerivedSources" -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/Aquarium_Prefix.pch" -o /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-cklgdirbrhhwilerbvtxoaxdfvon/Aquarium_Prefix.pch.gch0#
+CProcessPCH /var/folders/Ew/EwQuf3W6EEqv+mrIH8J8r++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Aquarium_Prefix-chaewrqarnxnfaeblbgyprzcuebr/Aquarium_Prefix.pch.gch Aquarium_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
 
-CTouch "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app"
-s304226509.290126
-e304226509.293805
-r1
-xTouch
-x/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app
-lSLF07#2@101"Touch /Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app304226509#304226509#0(0"0(0#0#0"8610874496#315"    cd "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/monko5/Dropbox/CoCoa/CoreData Projects/Aquarium/build/Debug-iphonesimulator/Aquarium.app"0#
+CTouch /Users/monko5/Dropbox/CoCoa/Aquarium/build/Debug-iphonesimulator/Aquarium.app
+r0
 
